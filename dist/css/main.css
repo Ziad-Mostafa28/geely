@@ -45,9 +45,6 @@ a {
 .fs_17 {
     font-size: 17px;
 }
-.fs_16 {
-    font-size: 16px;
-}
 .fs_15 {
     font-size: 15px;
 }
@@ -96,8 +93,6 @@ a {
     box-shadow: 2px 1px 5px 7px rgba(0,0,0,0.04) !important;
     -webkit-box-shadow: 2px 1px 5px 7px rgba(0,0,0,0.04) !important;
 }
-
-
 
 
 .Request_Section {
