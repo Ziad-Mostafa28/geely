@@ -210,6 +210,7 @@ a {
 .top_div_Form{
     padding: 30px 0px;
     background: white;
+    display: flex;
 }
 
 .First_step {
@@ -229,9 +230,51 @@ a {
     text-transform: uppercase;
     color: #d0d0d0;
     transform: rotate(-90deg);
+    margin: -1.2rem;
 
 }
 .First_step .Number_span{
     font-size: 65px !important;
     transform: rotate(0deg) !important;
+    margin: 0 !important;
+}
+
+.Choose_Type_car {
+    width: 85%;
+    margin-left: -5rem;
+}
+.Choose_Type_car h1{
+    font-size: 24px;
+    line-height: 22px;
+    padding-top: 8px;
+}
+
+.Choose_Type_car ul{
+    background-color: #f6f6f6;
+    border: 1px solid #e6e2e2;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.Choose_Type_car button{
+    color: black;
+}
+
+.Choose_Type_car ul .nav-link.active,.Choose_Type_car .nav-link:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.Select_Model_Step {
+        padding: 30px 0px;
+        background:#f6f6f6;
+        display: flex;
+}
+
+.Model_Slider {
+    width: 85%;
+    margin-left: -5rem;
+    text-align: center;
 }
