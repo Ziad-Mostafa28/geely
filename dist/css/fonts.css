@@ -6,10 +6,10 @@
 }
 
 @font-face {
-    font-family: enosans;
-    src: url('../fonts/enosans/Neo Sans Std Bold.otf');
-    src: url('../fonts/enosans/Neo Sans Std Light.otf');
-    src: url('../fonts/enosans/Neo Sans Std Regular.otf');
+    font-family: neosans;
+    src: url('../fonts/neosans/Neo Sans Std Bold.otf');
+    src: url('../fonts/neosans/Neo Sans Std Light.otf');
+    src: url('../fonts/neosans/Neo Sans Std Regular.otf');
 }
 
 @font-face {
