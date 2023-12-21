@@ -5,11 +5,13 @@ body {
     font-family: "neosans", Sans-serif;
 }
 
-
-
 a {
     color: #000000;
     text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
 }
 
 .overlayout {
@@ -22,6 +24,13 @@ a {
     left: 0;
     right: 0;
     z-index: 1;
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    background-color: #000000;
+    opacity: 1;
 }
 
 .zn_1 {
@@ -56,6 +65,10 @@ a {
     width: 40% !important;
 }
 
+.w_5 {
+    width: 5% !important;
+}
+
 .search-layout {
     left: 0;
     top: 0;
@@ -86,6 +99,7 @@ a {
 .fs_17 {
     font-size: 17px;
 }
+
 .fs_15 {
     font-size: 15px;
 }
@@ -117,6 +131,12 @@ a {
     background-color: #eae9e8;
 }
 
+/* ==============Border======================= */
+
+.border_right {
+    border-right: 2px solid #000000
+}
+
 /* ==============Background img======================= */
 
 
@@ -132,11 +152,34 @@ a {
     background-size: cover;
 }
 
+.bg_position_center {
+
+    background-position: center;
+}
+
+.vehicles_links {
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 2px solid;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+.vehicles_links:hover {
+    background-color: #000000;
+}
+
+.vehicles_links:hover a {
+    color: #FFFFFF;
+}
 
 .sticky_sidebar {
     right: 22px;
     z-index: 10;
-} 
+}
 
 .sticky_sidebar ul li a {
     width: 36px;
