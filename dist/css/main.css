@@ -148,6 +148,15 @@ hr {
     background-image: url('../../imgs/vehicles/okavango/okavango-ob.jpg');
 }
 
+.bg_coolray_img {
+    background-image: url('../../imgs/vehicles/coolray/coolray.jpg');
+}
+
+.bg_coolray_ob_img {
+    background-image: url('../../imgs/vehicles/coolray/coolray-ob.jpg');
+}
+
+
 .bg_cover {
     background-size: cover;
 }
@@ -156,6 +165,15 @@ hr {
 
     background-position: center;
 }
+
+.vehicles-box:nth-child(odd) {
+    flex-direction: row;
+}
+
+.vehicles-box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
 
 .vehicles_links {
     font-size: 17px;
