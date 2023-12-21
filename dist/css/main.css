@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'enosans', 'avenir', 'enosans_ar', ' sans-serif';
 }
 
 a {
@@ -33,4 +34,10 @@ a {
 .header_contact-search:focus+.search-layout,
 .search-layout:focus-within {
     display: block;
+}
+
+/* ==============Font Size======================= */
+
+.fs_17 {
+    font-size: 17px;
 }

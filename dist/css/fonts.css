@@ -1,0 +1,25 @@
+@font-face {
+    font-family: avenir;
+    src: url('../fonts/avenir/AvenirLTStd-Black.otf');
+    src: url('../fonts/avenir/AvenirLTStd-Book.otf');
+    src: url('../fonts/avenir/AvenirLTStd-Roman.otf');
+}
+
+@font-face {
+    font-family: enosans;
+    src: url('../fonts/enosans/Neo Sans Std Bold.otf');
+    src: url('../fonts/enosans/Neo Sans Std Light.otf');
+    src: url('../fonts/enosans/Neo Sans Std Regular.otf');
+}
+
+@font-face {
+    font-family: enosans_ar;
+    src: url('../fonts/enosans_ar/Neo Sans Arabic Regular.ttf');
+    src: url('../fonts/enosans_ar/Neo_Sans_Medium.ttf');
+    src: url('../fonts/enosans_ar/NeoSansArabic.ttf');
+    src: url('../fonts/enosans_ar/NeoSansArabicBlack.ttf');
+    src: url('../fonts/enosans_ar/NeoSansArabicBold.ttf');
+    src: url('../fonts/enosans_ar/NeoSansArabicLight.ttf');
+    src: url('../fonts/enosans_ar/NeoSansArabicMedium.ttf');
+    src: url('../fonts/enosans_ar/NeoSansArabicUltra.ttf');
+}
