@@ -5,11 +5,35 @@ body {
     font-family: "neosans", Sans-serif;
 }
 
-
-
 a {
     color: #000000;
     text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.header_navbar_item {
+    position: relative !important;
+    display: inline-block !important;
+}
+
+.header_navbar_item_dropdown {
+    display: none !important;
+    position: absolute !important;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1 !important;
+    top: 4.6rem;
+    left: 0px;
+    border-top: 3px solid #000000;
+    padding: 1.5rem;
+    min-width: 20rem;
+}
+
+.header_navbar_item:hover .header_navbar_item_dropdown {
+    display: block !important;
 }
 
 .overlayout {
@@ -22,6 +46,13 @@ a {
     left: 0;
     right: 0;
     z-index: 1;
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    background-color: #000000;
+    opacity: 1;
 }
 
 .zn_1 {
@@ -44,6 +75,10 @@ a {
     gap: 0.5rem;
 }
 
+.gap-1 {
+    gap: 1rem;
+}
+
 .gap-sm {
     gap: 1.5rem;
 }
@@ -54,6 +89,10 @@ a {
 
 .w_40 {
     width: 40% !important;
+}
+
+.w_5 {
+    width: 5% !important;
 }
 
 .search-layout {
@@ -118,6 +157,12 @@ a {
     background-color: #eae9e8;
 }
 
+/* ==============Border======================= */
+
+.border_right {
+    border-right: 2px solid #000000
+}
+
 /* ==============Background img======================= */
 
 
@@ -129,10 +174,51 @@ a {
     background-image: url('../../imgs/vehicles/okavango/okavango-ob.jpg');
 }
 
+.bg_coolray_img {
+    background-image: url('../../imgs/vehicles/coolray/coolray.jpg');
+}
+
+.bg_coolray_ob_img {
+    background-image: url('../../imgs/vehicles/coolray/coolray-ob.jpg');
+}
+
+
 .bg_cover {
     background-size: cover;
 }
 
+.bg_position_center {
+
+    background-position: center;
+}
+
+.vehicles-box:nth-child(odd) {
+    flex-direction: row;
+}
+
+.vehicles-box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+.vehicles_links {
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 2px solid;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+.vehicles_links:hover {
+    background-color: #000000;
+}
+
+.vehicles_links:hover a {
+    color: #FFFFFF;
+}
 
 .sticky_sidebar {
     right: 22px;

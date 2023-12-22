@@ -11,23 +11,68 @@
 </head>
 
 <body>
-    <header class="bg-white p-3 fw-bold fs_17">
+    <header class="bg-white fw-bold fs_17">
         <div class="container-fluid">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="header_logo">
-                    <a href="/">
+                    <a href="#">
                         <img src="./imgs/geely-logo-black.png" />
                     </a>
                 </div>
                 <div class="header_navbar">
-                    <ul class="d-flex list-unstyled text-capitalize m-0 gap-sm">
-                        <li><a href="./about-us.html">about geely</a></li>
-                        <li><a href="./about-alghanim.html">about alghanim</a></li>
-                        <li><a href="./vehicles.html">vehicles</a></li>
-                        <li><a href="./innovation.html">innovation</a></li>
-                        <li><a href="./offers.html">offers</a></li>
-                        <li><a href="#">service</a></li>
-                        <li><a href="#">media center</a></li>
+                    <ul class="d-flex list-unstyled text-capitalize m-0 gap-xs">
+                        <li class="header_navbar_item py-4 px-3">
+                            <a href="./about-us.html">about geely</a>
+                            <div class="header_navbar_item_dropdown">
+                                <ul class="dropdown_list">
+                                    <li class="dropdown_list_item">our vision</li>
+                                    <li class="dropdown_list_item">our vision</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_navbar_item py-4 px-3">
+                            <a href="./about-alghanim.html">about alghanim</a>
+                            <div class="header_navbar_item_dropdown">
+                                <ul class="dropdown_list">
+                                    <li class="dropdown_list_item">our vision</li>
+                                    <li class="dropdown_list_item">our vision</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_navbar_item py-4 px-3">
+                            <a href="./vehicles.html">vehicles</a>
+                        </li>
+                        <li class="header_navbar_item py-4 px-3">
+                            <a href="./innovation.html">innovation</a>
+                            <div class="header_navbar_item_dropdown">
+                                <ul class="dropdown_list">
+                                    <li class="dropdown_list_item">our vision</li>
+                                    <li class="dropdown_list_item">our vision</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_navbar_item py-4 px-3">
+                            <a href="./offers.html">offers</a>
+                        </li>
+
+                        <li class="header_navbar_item py-4 px-3">
+                            <a href="#">service</a>
+                            <div class="header_navbar_item_dropdown">
+                                <ul class="dropdown_list">
+                                    <li class="dropdown_list_item">our vision</li>
+                                    <li class="dropdown_list_item">our vision</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_navbar_item py-4 px-3">
+                            <a href="#">media center</a>
+                            <div class="header_navbar_item_dropdown">
+                                <ul class="dropdown_list">
+                                    <li class="dropdown_list_item">our vision</li>
+                                    <li class="dropdown_list_item">our vision</li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="header_contact d-flex gap-sm">
@@ -90,11 +135,11 @@
     </div>
 
     <div>
-        <div class="row p-0 m-0">
+        <div class="row p-0 m-0 vehicles-box">
             <div class="col-6 p-0 m-0">
-                <div class="bg_okavango_img bg_cover w-100 h-100"></div>
+                <div class="bg_okavango_img bg_cover bg_position_center w-100 h-100"></div>
             </div>
-            <div class="col-6 bg_okavango_ob_img bg_cover position-relative py_5 px_5">
+            <div class="col-6 bg_okavango_ob_img bg_cover bg_position_center position-relative py_5 px_5">
                 <div class="overlayout"></div>
 
                 <div class=" d-flex flex-column position-relative zn_2">
@@ -111,30 +156,187 @@
                     </div>
 
                     <div class="mt-4 border-2">
+                        <hr />
                         <ul class="d-flex list-unstyled py-3 border-top-1 border-bottom-1">
-                            <li class="px-2 border-end-1"><span>2.0TD</span></li>
-                            <li class="px-2 border-end-1"><span>218 HP</span></li>
-                            <li class="px-2 border-end-1"><span>From
-                                    0-100km/h 7.9s</span></li>
+                            <li class="px-5 border_right"><span>2.0TD</span></li>
+                            <li class="px-5 border_right"><span>218 HP</span></li>
+                            <li class="px-5"><span>From 0-100km/h 7.9s</span></li>
                         </ul>
+                        <hr />
                     </div>
 
-                    <div>
-                        <p> <span class="d-inline-block"><img src="./imgs/icons/touch-screen-car-white.png" />
-                            </span>Nature Inspired grand new
-                            aesthetics
+                    <div class="mt-4">
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/touch-screen-car-white.png" />
+                            </span>
+                            Nature Inspired grand new aesthetics
                         </p>
-                        <p> <span class="d-inline-block"><img src="./imgs/icons/brake-car.png" /> </span>2.0TD high
-                            performance engine</p>
-                        <p> <span class="d-inline-block"><img src="./imgs/icons/car-sunroof.png" />
-                            </span>Multi-functional 7-seater SUV</p>
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/brake-car.png" />
+                            </span>
+                            2.0TD high performance engine
+                        </p>
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/car-sunroof.png" />
+                            </span>
+                            Multi-functional 7-seater SUV
+                        </p>
+                    </div>
+
+                    <div class="mt-5 d-flex align-items-center gap-sm">
+                        <div class="vehicles_links">
+                            <a href="./okavango.html">explore</a>
+                        </div>
+                        <div class="vehicles_links">
+                            <a href="./request-a-quote">get quote</a>
+                        </div>
+                        <div class="vehicles_links">
+                            <a href="./request-test-drive">test drive</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row p-0 m-0 vehicles-box">
+            <div class="col-6 p-0 m-0">
+                <div class="bg_coolray_img bg_cover bg_position_center w-100 h-100"></div>
+            </div>
+            <div class="col-6 bg_coolray_ob_img bg_cover bg_position_center position-relative py_5 px_5">
+                <div class="overlayout"></div>
+
+                <div class=" d-flex flex-column position-relative zn_2">
+                    <div class="d-flex flex-column gap-xs">
+                        <div>
+                            <img src="./imgs/vehicles/coolray/coolray-logo.png" alt="coolray logo" class="w_40" />
+                        </div>
+                        <div>
+                            <p class="m-0 fs-5">Your Path, Your Story</p>
+                        </div>
+                        <div>
+                            <p class="m-0 fs-6">Starting from <strong>7,299 KD</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 border-2">
+                        <hr />
+                        <ul class="d-flex list-unstyled py-3 border-top-1 border-bottom-1">
+                            <li class="px-5 border_right"><span>2.0TD</span></li>
+                            <li class="px-5 border_right"><span>218 HP</span></li>
+                            <li class="px-5"><span>From 0-100km/h 7.9s</span></li>
+                        </ul>
+                        <hr />
+                    </div>
+
+                    <div class="mt-4">
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/touch-screen-car-white.png" />
+                            </span>
+                            Nature Inspired grand new aesthetics
+                        </p>
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/brake-car.png" />
+                            </span>
+                            2.0TD high performance engine
+                        </p>
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/car-sunroof.png" />
+                            </span>
+                            Multi-functional 7-seater SUV
+                        </p>
+                    </div>
+
+                    <div class="mt-5 d-flex align-items-center gap-sm">
+                        <div class="vehicles_links">
+                            <a href="./okavango.html">explore</a>
+                        </div>
+                        <div class="vehicles_links">
+                            <a href="./request-a-quote">get quote</a>
+                        </div>
+                        <div class="vehicles_links">
+                            <a href="./request-test-drive">test drive</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row p-0 m-0 vehicles-box">
+            <div class="col-6 p-0 m-0">
+                <div class="bg_coolray_img bg_cover bg_position_center w-100 h-100"></div>
+            </div>
+            <div class="col-6 bg_coolray_ob_img bg_cover bg_position_center position-relative py_5 px_5">
+                <div class="overlayout"></div>
+
+                <div class=" d-flex flex-column position-relative zn_2">
+                    <div class="d-flex flex-column gap-xs">
+                        <div>
+                            <img src="./imgs/vehicles/coolray/coolray-logo.png" alt="coolray logo" class="w_40" />
+                        </div>
+                        <div>
+                            <p class="m-0 fs-5">Your Path, Your Story</p>
+                        </div>
+                        <div>
+                            <p class="m-0 fs-6">Starting from <strong>7,299 KD</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 border-2">
+                        <hr />
+                        <ul class="d-flex list-unstyled py-3 border-top-1 border-bottom-1">
+                            <li class="px-5 border_right"><span>2.0TD</span></li>
+                            <li class="px-5 border_right"><span>218 HP</span></li>
+                            <li class="px-5"><span>From 0-100km/h 7.9s</span></li>
+                        </ul>
+                        <hr />
+                    </div>
+
+                    <div class="mt-4">
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/touch-screen-car-white.png" />
+                            </span>
+                            Nature Inspired grand new aesthetics
+                        </p>
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/brake-car.png" />
+                            </span>
+                            2.0TD high performance engine
+                        </p>
+                        <p>
+                            <span class="d-inline-block w_5 me-2">
+                                <img class="w-100" src="./imgs/icons/car-sunroof.png" />
+                            </span>
+                            Multi-functional 7-seater SUV
+                        </p>
+                    </div>
+
+                    <div class="mt-5 d-flex align-items-center gap-sm">
+                        <div class="vehicles_links">
+                            <a href="./okavango.html">explore</a>
+                        </div>
+                        <div class="vehicles_links">
+                            <a href="./request-a-quote">get quote</a>
+                        </div>
+                        <div class="vehicles_links">
+                            <a href="./request-test-drive">test drive</a>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-
 
 
 </body>
