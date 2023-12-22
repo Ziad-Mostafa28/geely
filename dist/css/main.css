@@ -12,8 +12,48 @@ a {
     text-decoration: none;
 }
 
+.overlayout {
+    width: 100%;
+    height: 100%;
+    background-color: #d2dadce6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.zn_1 {
+    z-index: 1;
+}
+
+.zn_2 {
+    z-index: 2;
+}
+
+.zn_3 {
+    z-index: 3;
+}
+
+.zn_4 {
+    z-index: 4;
+}
+
+.gap-xs {
+    gap: 0.5rem;
+}
+
 .gap-sm {
     gap: 1.5rem;
+}
+
+.gap-md {
+    gap: 2rem;
+}
+
+.w_40 {
+    width: 40% !important;
 }
 
 .search-layout {
@@ -42,9 +82,11 @@ a {
 .fs_48 {
     font-size: 3rem;
 }
+
 .fs_17 {
     font-size: 17px;
 }
+
 .fs_15 {
     font-size: 15px;
 }
@@ -58,12 +100,38 @@ a {
 
 /* ==============Background Color======================= */
 
+
+.py_5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.px_5 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* ==============Background Color======================= */
+
 .bg-secondary-subtle {
     background-color: #eae9e8;
 }
 
+/* ==============Background img======================= */
 
 
+.bg_okavango_img {
+    background-image: url('../../imgs/vehicles/okavango/okavango.jpg');
+}
+
+.bg_okavango_ob_img {
+    background-image: url('../../imgs/vehicles/okavango/okavango-ob.jpg');
+}
+
+.bg_cover {
+    background-size: cover;
+}
 
 
 .sticky_sidebar {
@@ -71,46 +139,270 @@ a {
     z-index: 10;
 }
 
-.sticky_sidebar  ul li {
-    -webkit-box-shadow: 2px 1px 5px 7px rgba(0,0,0,0.04);
-}
-.sticky_sidebar  ul li a {
+.sticky_sidebar ul li a {
     width: 36px;
     height: 36px;
-    padding: 5px 5px; 
+    padding: 5px 5px;
 }
-.sticky_sidebar  ul li a span {
+
+.sticky_sidebar ul li a span {
     height: 36px;
     border-radius: 3px 0px 0px 3px;
     width: 0px;
 }
-.sticky_sidebar  ul li:hover a span {
+
+.sticky_sidebar ul li:hover a span {
     min-width: 8em !important;
-    padding: 0px 10px !important; 
+    padding: 0px 10px !important;
     right: 100% !important;
     background-color: #ffffffa8 !important;
     transition: 0.5s ease !important;
-    box-shadow: 2px 1px 5px 7px rgba(0,0,0,0.04) !important;
-    -webkit-box-shadow: 2px 1px 5px 7px rgba(0,0,0,0.04) !important;
+    box-shadow: 2px 1px 5px 7px rgba(0, 0, 0, 0.04) !important;
+    -webkit-box-shadow: 2px 1px 5px 7px rgba(0, 0, 0, 0.04) !important;
 }
 
 
 .Request_Section {
-    background-image: url(/imgs/Emgrand-4.webp);
+    background-image: url(../../imgs/Emgrand-4.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 .Request_Section_overlay {
     background-color: rgb(234, 233, 232);
     opacity: 0.9;
 }
+
 .Request_Section_content {
     position: relative;
     top: 20%;
 }
-.Request_Section_content p{
+
+.Request_Section_content p {
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.5px;
+}
+
+
+.Request_test {
+    margin-top: -250px;
+    margin-bottom: 0px;
+    padding: 0px 15px 60px 15px;
+}
+
+
+.Form_container {
+    width: 1140px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+    display: flex;
+}
+
+.Form_container .left_side {
+    background-color: #eae9e8;
+    width: 15%;
+    align-content: center;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.top_div_Form {
+    padding: 30px 0px;
+    background: white;
+    display: flex;
+}
+
+.First_step {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.First_step .Step_span,
+.First_step .Number_span {
+    text-align: center;
+    font-size: 44px;
+    line-height: 48px;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    color: #d0d0d0;
+    transform: rotate(-90deg);
+    margin: -1.2rem;
+
+}
+
+.First_step .Number_span {
+    font-size: 65px !important;
+    transform: rotate(0deg) !important;
+    margin: 0 !important;
+}
+
+.Choose_Type_car {
+    width: 85%;
+    margin-left: -5rem;
+}
+
+.Choose_Type_car h1,
+.Model_Slider h1,
+.Forms_Model h1 {
+    font-size: 24px;
+    line-height: 22px;
+    padding-top: 8px;
+}
+
+.Choose_Type_car ul {
+    background-color: #f6f6f6;
+    border: 1px solid #e6e2e2;
+    width:28.5%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Choose_Type_car button {
+    color: black;
+}
+
+.Choose_Type_car ul .nav-link.active,
+.Choose_Type_car .nav-link:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.Select_Model_Step {
+    padding: 30px 0px;
+    background: #f6f6f6;
+    display: flex;
+}
+
+.Model_Slider {
+    width: 85%;
+    margin-left: -5rem;
+    text-align: center;
+}
+
+.Model_Slider .tab-content {
+    width: 800px;
+}
+
+.Select_Form_Step {
+    padding: 30px 0px;
+    background: white;
+    display: flex;
+}
+.Forms_Model {
+    width: 85%;
+    margin-left: -5rem;
+    text-align: center;
+}
+
+.all_Form{
+    width: 85%;
+    margin-left: auto;
+    padding-left: 25px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.Forms_Model .form_field {
+    padding-bottom: 30px; 
+}
+.Forms_Model .form_field .label {
+    font-size: 15px;
+    font-family: 'Arial';
+    color: #242424;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.Forms_Model .form_field input {
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Arial';
+    height: 50px;
+    border: 1px solid #e4e6e7;
+    border-top: 3px solid #e4e6e7;
+    border-radius: 4px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #eae9e8;
+}
+.full_width {
+    width: 100% ;
+}
+.half_width  {
+    width: 48%;
+}
+.Email_phone {
+    column-gap: 1.5rem;
+}
+.Location_Select {
+    background-image: url(/imgs/icons/form_drop_down_arrow.webp);
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Arial';
+    padding: 0px 15px;
+    height: 50px;
+    background-color: #eae9e8;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 18px) 55%;
+    border-radius: 4px;
+    border: 1px solid #e4e6e7;
+    border-top: 3px solid #e4e6e7;
+}
+.full_width textarea {
+    background-color: #eae9e8;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Arial';
+    resize: none;
+    border: 1px solid #e4e6e7;
+    border-top: 3px solid #e4e6e7;
+    border-radius: 4px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 120px;
+}
+.checkbox label {
+    font-size: 14px !important;
+    position: relative;
+    padding-left: 35px;
+}
+.checkbox input {
+    position: absolute !important; 
+    top: 5px !important;
+    left: 0 !important;
+    height: 20px !important;
+    width: 20px !important;
+    border: 1px solid #d1d9df !important;
+    border-radius: 4px !important;
+    border-style: solid !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+.form_btn .sub_btn {
+    background-color: #000 ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 10px 15px;
+    min-width: 10em;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
 }
