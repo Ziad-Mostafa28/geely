@@ -153,149 +153,151 @@
 
 
         <section class="Request_test">
-            <div class="Form_container">
-                <div class="left_side">
-                    <img src="imgs/RTD_image.webp" alt="">
+                <div class="Form_container">
+                    <div class="left_side">
+                        <img src="imgs/RTD_image.webp" alt="">
+                    </div>
+    
+                    <div class="Width_FOrm">
+                        <form class="w-100" action="" > 
+    
+                            <div class="w-100 bg-white">
+            
+                                <div class="top_div_Form">
+            
+                                    <div class="First_step  ms-4">
+                                        <span class="Step_span">
+                                            <b>STEP</b>
+                                        </span>
+                                        <span class="Number_span">
+                                            <b>1</b>
+                                        </span>
+                                    </div>
+                                    <div class="Choose_Type_car text-center">
+            
+                                        <h1>Choose Your Car</h1>
+                                        <ul class="nav nav-tabs justify-content-center rounded-pill" id="myTab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link rounded-pill active border-0" id="home-tab"
+                                                    data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab"
+                                                    aria-controls="home-tab-pane" aria-selected="true"><img
+                                                        src="imgs/icons/active_car_tab_icon.png" class="me-2" alt="">SEDAN</button>
+            
+                                            </li>
+                                            <li class="nav-item border-0" role="presentation">
+                                                <button class="nav-link rounded-pill border-0" id="profile-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                                    aria-controls="profile-tab-pane" aria-selected="false"><img
+                                                        src="imgs/icons/active_car_tab_icon.png" class="me-3" alt="">SUV</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+            
+                                </div>
+                                
+            
+            
+                                    <div class="Select_Model_Step">
+            
+                                        <div class="First_step  ms-4">
+                                            <span class="Step_span">
+                                                <b>STEP</b>
+                                            </span>
+                                            <span class="Number_span">
+                                                <b>2</b>
+                                            </span>
+                                        </div>
+            
+            
+                                        <div class="Model_Slider">
+                                            <h1>Select Model</h1>
+            
+                                            <div class="tab-content" id="myTabContent">
+                                                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                                                    aria-labelledby="home-tab" tabindex="0">
+                                                    .dsd</div>
+            
+            
+                                                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
+                                                    aria-labelledby="profile-tab" tabindex="0">.dsd</div>
+                                            </div>
+                                        </div>
+            
+            
+            
+                                    </div>
+                                    <div class="Select_Form_Step">
+            
+                                        <div class="First_step  ms-4">
+                                            <span class="Step_span">
+                                                <b>STEP</b>
+                                            </span>
+                                            <span class="Number_span">
+                                                <b>3</b>
+                                            </span>
+                                        </div>
+                                        <div class="Forms_Model">
+                                            <h1>Contact Information</h1>
+                                            <div class="all_Form">
+                                                <div class="form_field full_width">
+                                                    <label class="label text-start">Name <span class="start ">*</span></label>
+                                                    <input required="" type="text" name="first_name" id="first_name" placeholder=""
+                                                        maxlength="40" />
+                                                    <span class="invalid_name error_message"></span>
+                                                </div>
+                                                <div class="d-flex Email_phone">
+                                                    <div class="form_field half_width">
+                                                        <label class="label text-start">Email <span class="star"></span></label>
+                                                        <input type="email" name="email" id="email" placeholder="" maxlength="50">
+                                                        <span class="invalid_email error_message"></span>
+                                                    </div>
+                                                    <div class="form_field half_width">
+                                                        <label class="label text-start">Mobile Number <span class="star">*</span>
+                                                        </label>
+                                                        <input id="phone" type="tel" name="phone" class="w-100" />
+                                                        <span class="invalid_phone error_message"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form_field full_width">
+                                                    <label class="label text-start">Select the location <span
+                                                            class="star">*</span></label>
+                                                    <select alt name="pickup_store" class="Location_Select w-100" id="pickup_store"
+                                                        required="">
+                                                        <option value="Geely Showroom - Al Rai"> Geely Showroom - Al Rai</option>
+                                                        <option value="Geely Showroom - Jahra"> Geely Showroom - Jahra</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form_field full_width">
+                                                    <label class="label text-start">Comment</label>
+                                                    <textarea name="testdrive_complaint" maxlength="500" id="complaint"
+                                                        placeholder="Comment"></textarea>
+                                                    <span class="testdrive_complaint error_message"></span>
+                                                </div>
+                                                <div class="form_field checkbox full_width">
+                                                    <label class="label text-start "><span class="terms">I have read and accept
+                                                            <span class="star"> *</span>
+                                                            <a href="https://geely.com.kw/legal-statement/" target="_blank"> (Terms
+                                                                &amp; Conditions)</a></span>
+                                                        <input type="checkbox" id="terms_and_conditions">
+                                                        <span class="checkmark"> </span><br>
+                                                        <span class="check_terms error_message"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="form_field full_width">
+                                                    <div class="g-recaptcha"
+                                                        data-sitekey="6Lf_njkpAAAAACQMPnmTQSyqVxVKYu9pnM5a8VNe"></div>
+                                                </div>
+                                                <div class="form_btn text-start">
+                                                    <button type="submit" class="sub_btn" name="form_submit">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                            </form>
+                    </div>
                 </div>
-
-                <form class="w-100" action="" > 
-
-                <div class="w-100 bg-white">
-
-                    <div class="top_div_Form">
-
-                        <div class="First_step  ms-4">
-                            <span class="Step_span">
-                                <b>STEP</b>
-                            </span>
-                            <span class="Number_span">
-                                <b>1</b>
-                            </span>
-                        </div>
-                        <div class="Choose_Type_car text-center">
-
-                            <h1>Choose Your Car</h1>
-                            <ul class="nav nav-tabs justify-content-center rounded-pill" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link rounded-pill active border-0" id="home-tab"
-                                        data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab"
-                                        aria-controls="home-tab-pane" aria-selected="true"><img
-                                            src="imgs/icons/active_car_tab_icon.png" class="me-2" alt="">SEDAN</button>
-
-                                </li>
-                                <li class="nav-item border-0" role="presentation">
-                                    <button class="nav-link rounded-pill border-0" id="profile-tab" data-bs-toggle="tab"
-                                        data-bs-target="#profile-tab-pane" type="button" role="tab"
-                                        aria-controls="profile-tab-pane" aria-selected="false"><img
-                                            src="imgs/icons/active_car_tab_icon.png" class="me-3" alt="">SUV</button>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    
-
-
-                        <div class="Select_Model_Step">
-
-                            <div class="First_step  ms-4">
-                                <span class="Step_span">
-                                    <b>STEP</b>
-                                </span>
-                                <span class="Number_span">
-                                    <b>2</b>
-                                </span>
-                            </div>
-
-
-                            <div class="Model_Slider">
-                                <h1>Select Model</h1>
-
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
-                                        aria-labelledby="home-tab" tabindex="0">
-                                        .dsd</div>
-
-
-                                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
-                                        aria-labelledby="profile-tab" tabindex="0">.dsd</div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                        <div class="Select_Form_Step">
-
-                            <div class="First_step  ms-4">
-                                <span class="Step_span">
-                                    <b>STEP</b>
-                                </span>
-                                <span class="Number_span">
-                                    <b>3</b>
-                                </span>
-                            </div>
-                            <div class="Forms_Model">
-                                <h1>Contact Information</h1>
-                                <div class="all_Form">
-                                    <div class="form_field full_width">
-                                        <label class="label text-start">Name <span class="start ">*</span></label>
-                                        <input required="" type="text" name="first_name" id="first_name" placeholder=""
-                                            maxlength="40" />
-                                        <span class="invalid_name error_message"></span>
-                                    </div>
-                                    <div class="d-flex Email_phone">
-                                        <div class="form_field half_width">
-                                            <label class="label text-start">Email <span class="star"></span></label>
-                                            <input type="email" name="email" id="email" placeholder="" maxlength="50">
-                                            <span class="invalid_email error_message"></span>
-                                        </div>
-                                        <div class="form_field half_width">
-                                            <label class="label text-start">Mobile Number <span class="star">*</span>
-                                            </label>
-                                            <input id="phone" type="tel" name="phone" class="w-100" />
-                                            <span class="invalid_phone error_message"></span>
-                                        </div>
-                                    </div>
-                                    <div class="form_field full_width">
-                                        <label class="label text-start">Select the location <span
-                                                class="star">*</span></label>
-                                        <select alt name="pickup_store" class="Location_Select w-100" id="pickup_store"
-                                            required="">
-                                            <option value="Geely Showroom - Al Rai"> Geely Showroom - Al Rai</option>
-                                            <option value="Geely Showroom - Jahra"> Geely Showroom - Jahra</option>
-                                        </select>
-                                    </div>
-                                    <div class="form_field full_width">
-                                        <label class="label text-start">Comment</label>
-                                        <textarea name="testdrive_complaint" maxlength="500" id="complaint"
-                                            placeholder="Comment"></textarea>
-                                        <span class="testdrive_complaint error_message"></span>
-                                    </div>
-                                    <div class="form_field checkbox full_width">
-                                        <label class="label text-start "><span class="terms">I have read and accept
-                                                <span class="star"> *</span>
-                                                <a href="https://geely.com.kw/legal-statement/" target="_blank"> (Terms
-                                                    &amp; Conditions)</a></span>
-                                            <input type="checkbox" id="terms_and_conditions">
-                                            <span class="checkmark"> </span><br>
-                                            <span class="check_terms error_message"></span>
-                                        </label>
-                                    </div>
-                                    <div class="form_field full_width">
-                                        <div class="g-recaptcha"
-                                            data-sitekey="6Lf_njkpAAAAACQMPnmTQSyqVxVKYu9pnM5a8VNe"></div>
-                                    </div>
-                                    <div class="form_btn text-start">
-                                        <button type="submit" class="sub_btn" name="form_submit">Submit</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </form>
-            </div>
     </div>
     </div>
     </section>
