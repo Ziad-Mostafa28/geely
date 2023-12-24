@@ -90,6 +90,9 @@ a {
 .fs_15 {
     font-size: 15px;
 }
+.fs_14 {
+    font-size: 14px;
+}
 
 /* ==============Padding======================= */
 
@@ -442,4 +445,47 @@ a {
     cursor: pointer;
     text-decoration: none;
     border: 0;
+}
+
+
+footer {
+    background-color: #eae9e8;
+}
+footer .First_Footer_style a:hover {
+    color:black;
+}
+footer .First_Footer_style .second_col a:last-child:hover {
+    color: white    ;
+}
+.First_Footer_style {
+    padding: 26px 0px 20px 0px;
+    border-bottom: 1px solid #D7D7D7;
+}
+.second_col .last_Link_call {
+    background-color: #232322;
+    padding: 15px 25px 13px 25px;
+    border-radius: 4px;
+}
+
+
+.second_Footer_style {
+    padding: 30px 0 45px 0;
+}
+.second_Footer_style a:hover {
+    color: #000;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.third_Footer_style {
+    padding: 30px 15px 30px 15px;
+    background-color: #DFDFDF;
+}
+.third_Footer_style svg {
+    background: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+.Forth_Footer_style a:hover {
+    color: rgb(101, 101, 101);
 }
